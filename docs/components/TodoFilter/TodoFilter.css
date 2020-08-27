@@ -1,0 +1,41 @@
+.todo-filter {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--copernicus-book-font-family);
+  font-size: 18px;
+}
+
+.todo-filter__item {
+  margin-bottom: 18px;
+}
+
+.todo-filter__item input {
+  margin-right: 10px;
+}
+
+@media (max-width: 1024px) {
+  .todo-filter {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .todo-filter__item {
+    margin: 0 30px 0 0;
+  }
+
+  .todo-filter__item input {
+    margin: 0;
+  }
+}
+
+@media (max-width: 460px) {
+  .radio-container {
+    padding-left: 25px;
+  }
+  .todo-filter__item {
+    margin-right: 20px;
+  }
+}

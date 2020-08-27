@@ -1,0 +1,40 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Run the app",
+      "description": "Follow the README instructions.",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "title": "Connect data",
+      "description": "Connect the real data using the `/todos` endpoint.",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "Render data",
+      "description": "Render the whole list of items.",
+      "completed": true
+    },
+    {
+      "id": 4,
+      "title": "Create interactions",
+      "description": "Make each TO-DO item to change its color when clicking the checkbox.",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "title": "Implement styles",
+      "description": "Implement the design for the large viewport.",
+      "completed": false
+    },
+    {
+      "id": 6,
+      "title": "Implement components",
+      "description": "Implement the top filter component functionality.",
+      "completed": true
+    }
+  ]
+}
