@@ -1,0 +1,24 @@
+{
+  "name": "to-do-list-exercise",
+  "version": "1.0.0",
+  "description": "Huge | TO-DO List Exercise",
+  "private": true,
+  "scripts": {
+    "start": "json-server --watch src/data/todos.json --static src",
+    "init": "git init",
+    "add": "git add --all",
+    "commit": "git commit -m 'init'",
+    "diff:cached": "git diff --cached > to-do-list-exercise.diff",
+    "unstage:all": "git reset HEAD .",
+    "diff": "npm-run-all add diff:cached unstage:all",
+    "setup": "npm-run-all init add commit"
+  },
+  "author": "Andres Carreño (acarreno@hugeinc.com)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "json-server": "^0.14.2"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

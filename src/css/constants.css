@@ -1,0 +1,12 @@
+:root {
+  /* App with */
+  --large-app: 1000px;
+  --medium-app: 660px;
+  --small-app: 430px;
+  --xl-app: 1200px;
+
+  /* Todo Items */
+  --todo-item-border-radius: 15px;
+  --todo-item-shadow: 10px 10px 50px -1px rgba(0, 0, 0, 0.3);
+  --todo-item-width: 200px;
+}

@@ -1,0 +1,35 @@
+.create-todo-item {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: var(--todo-item-border-radius);
+  box-shadow: var(--todo-item-shadow);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--copernicus-book-font-family);
+  font-style: italic;
+  height: 250px;
+  justify-content: center;
+  width: var(--todo-item-width);
+}
+
+.create-todo-item:hover {
+  background-color: var(--pink);
+  cursor: pointer;
+}
+
+.create-todo-item .icon-plus {
+  background: linear-gradient(var(--white),var(--white)), linear-gradient(var(--white), var(--white));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50% 2px, 2px 50%;
+  height: 50px;
+  width: 50px;
+}
+
+@media (max-width: 460px) {
+  .create-todo-item {
+    max-width: unset;
+    width: 100%;
+  }
+}

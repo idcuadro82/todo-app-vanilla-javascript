@@ -1,0 +1,25 @@
+:root {
+  --huge-font-family: "Huge Avant Garde";
+  --copernicus-book-font-family: "Copernicus Book";
+}
+
+@font-face {
+  font-family: "Huge Avant Garde";
+  font-style: bold;
+  src: local("Huge Avant Garde"),
+    url("/fonts/AvantGardeBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Copernicus Book";
+  font-style: normal;
+  src: local("Copernicus Book"),
+    url("/fonts/CopernicusBook.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Copernicus Book";
+  font-style: italic;
+  src: local("Copernicus Book"),
+    url("/fonts/CopernicusBookItalic.woff2") format("woff2");
+}
